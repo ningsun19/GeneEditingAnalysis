@@ -246,7 +246,7 @@ purity <- function(x){
     mutate(pct_only = if_else(WT_type == "C" & type == "T", pct_new, NA_real_)) 
   
 
-  n <- length(df$group)/80
+  n <- length(df$group)/100
 
   error_bar <- df %>%
     group_by(position) %>%
