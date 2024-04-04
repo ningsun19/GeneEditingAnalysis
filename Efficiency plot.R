@@ -38,118 +38,85 @@ my_function <- function(x, y){ # x = file name, y = wild sequence
 
 # CALCULATION -------------------------------------------------------------
 
+ATP8_1_result <- my_function(ATP8_1, "CCCAACTAAATACTACCGTA")
 
-ATP8_A8 <- read_excel("E:/ATP8.xlsx", sheet = "A8")
-ATP8_A8_result <- my_function(ATP8_A8, "CCCAACTAAATACTACCGTA")
+ATP8_2_result <- my_function(ATP8_2, "CCCAACTAAATACTACCGTA")
 
-ATP8_ATP8B1 <- read_excel("E:/ATP8.xlsx", sheet = "ATP8B1")
-ATP8_ATP8B1_result <- my_function(ATP8_ATP8B1, "CCCAACTAAATACTACCGTA")
+ATP8_3_result <- my_function(ATP8_3, "CCCAACTAAATACTACCGTA") 
 
-ATP8_BA81 <- read_excel("E:/ATP8.xlsx", sheet = "BA8-1")
-ATP8_BA81_result <- my_function(ATP8_BA81, "CCCAACTAAATACTACCGTA") 
+ATP8_4_result <- my_function(ATP8_4, "CCCAACTAAATACTACCGTA") 
 
-ATP8_4_result <- my_function(A8, "CCCAACTAAATACTACCGTA") 
-
-
-ND1_1 <- read_excel("E:/ND1.xlsx", sheet = "ND1-1")
 ND1_1_result <- my_function(ND1_1, "CTATCAACATTACTAATAAG")
 
-ND1_2 <- read_excel("E:/ND1.xlsx", sheet = "ND1-2")
 ND1_2_result <- my_function(ND1_2, "CTATCAACATTACTAATAAG")
 
-ND1_B1 <- read_excel("E:/ND1.xlsx", sheet = "ND1B1")
-ND1_B1_result <- my_function(ND1_B1, "CTATCAACATTACTAATAAG")
+ND1_3_result <- my_function(ND1_3, "CTATCAACATTACTAATAAG")
 
-ND1_B <- read_excel("E:/ND1.xlsx", sheet = "ND1-B")
-ND1_B_result <- my_function(ND1_B, "CTATCAACATTACTAATAAG")
+ND1_4_result <- my_function(ND1_4, "CTATCAACATTACTAATAAG")
 
-ND1_4_result <- my_function(N1, "CTATCAACATTACTAATAAG")
+ND1_5_result <- my_function(ND1_5, "CTATCAACATTACTAATAAG")
 
 
-ND2_1 <- read_excel("E:/ND2.xlsx", sheet = "ND2-1")
 ND2_1_result <- my_function(ND2_1, "TCCATCATAGCAGGCAGTTG")
 
-ND2_2 <- read_excel("E:/ND2.xlsx", sheet = "ND2-2")
 ND2_2_result <- my_function(ND2_2, "TCCATCATAGCAGGCAGTTG")
 
-ND2_B <- read_excel("E:/ND2.xlsx", sheet = "ND2-B")
-ND2_B_result <- my_function(ND2_B, "TCCATCATAGCAGGCAGTTG")
+ND2_3_result <- my_function(ND2_3, "TCCATCATAGCAGGCAGTTG")
 
-ND2_B1 <- read_excel("E:/ND2.xlsx", sheet = "ND2B1")
-ND2_B1_result <- my_function(ND2_B1, "TCCATCATAGCAGGCAGTTG")
+ND2_4_result <- my_function(ND2_4, "TCCATCATAGCAGGCAGTTG")
 
-ND2_4_result <- my_function(N2, "TCCATCATAGCAGGCAGTTG")
+ND2_5_result <- my_function(ND2_5, "TCCATCATAGCAGGCAGTTG")
 
 
+ND3_1_result <- my_function(ND3_1, "AAATCCACCCCTTACGAGTG")
 
-ND3 <- read_excel("E:/ND3.xlsx", sheet = "N3")
-ND3_result <- my_function(ND3, "AAATCCACCCCTTACGAGTG")
+ND3_2_result <- my_function(ND3_2, "AAATCCACCCCTTACGAGTG")
 
-ND3_B1 <- read_excel("E:/ND3.xlsx", sheet = "ND3B1")
-ND3_B1_result <- my_function(ND3_B1, "AAATCCACCCCTTACGAGTG")
+ND3_3_result <- my_function(ND3_3, "AAATCCACCCCTTACGAGTG")
 
-ND3_B <- read_excel("E:/ND3.xlsx", sheet = "ND3-B")
-ND3_B_result <- my_function(ND3_B, "AAATCCACCCCTTACGAGTG")
-
-ND3_4_result <- my_function(N3, "AAATCCACCCCTTACGAGTG")
+ND3_4_result <- my_function(ND3_4, "AAATCCACCCCTTACGAGTG")
 
 
 
-ND4_B1 <- read_excel("E:/ND4.xlsx", sheet = "ND4B1")
-ND4_B1_result <- my_function(ND4_B1, "CGCATCATAATCCTCTCTCA")
+ND4_1_result <- my_function(ND4_1, "CGCATCATAATCCTCTCTCA")
 
-ND4_B <- read_excel("E:/ND4.xlsx", sheet = "ND4-B")
-ND4_B_result <- my_function(ND4_B, "CGCATCATAATCCTCTCTCA")
+ND4_2_result <- my_function(ND4_2, "CGCATCATAATCCTCTCTCA")
 
-ND4_2N4BD5 <- read_excel("E:/ND4.xlsx", sheet = "2N4BD5")
-ND4_2N4BD5_result <- my_function(ND4_2N4BD5, "CGCATCATAATCCTCTCTCA")
+ND4_3_result <- my_function(ND4_3, "CGCATCATAATCCTCTCTCA")
 
-ND4_2N4BD6 <- read_excel("E:/ND4.xlsx", sheet = "2N4BD6")
-ND4_2N4BD6_result <- my_function(ND4_2N4BD6, "CGCATCATAATCCTCTCTCA")
+ND4_4_result <- my_function(ND4_4, "CGCATCATAATCCTCTCTCA")
 
-ND4_IDK <- read_excel("E:/ND4.xlsx", sheet = "293N4MTSB_x0009_")
-ND4_IDK_result <- my_function(ND4_IDK, "CGCATCATAATCCTCTCTCA")
+ND4_5_result <- my_function(ND4_5, "CGCATCATAATCCTCTCTCA")
 
-ND4_4_result <- my_function(N4, "CGCATCATAATCCTCTCTCA")
+ND4_6_result <- my_function(ND4_6, "CGCATCATAATCCTCTCTCA")
 
 
-ND5 <- read_excel("E:/ND5.xlsx", sheet = "N5")
-ND5_result <- my_function(ND5, "GCAGCCGGAAGCCTATTCGC")
+ND5_1_result <- my_function(ND5_1, "GCAGCCGGAAGCCTATTCGC")
 
-ND5_2 <- read_excel("E:/ND5.xlsx", sheet = "N5-2")
 ND5_2_result <- my_function(ND5_2, "GCAGCCGGAAGCCTATTCGC")
 
-ND5_B1 <- read_excel("E:/ND5.xlsx", sheet = "ND5B1")
-ND5_B1_result <- my_function(ND5_B1, "GCAGCCGGAAGCCTATTCGC")
+ND5_3_result <- my_function(ND5_3, "GCAGCCGGAAGCCTATTCGC")
 
-ND5_4_result <- my_function(N5, "GCAGCCGGAAGCCTATTCGC")
+ND5_4_result <- my_function(ND5_4, "GCAGCCGGAAGCCTATTCGC")
 
+COX2_1_result <- my_function(COX2_1, "ACCTACGAGTACACCGACTA")
 
-COX2_2 <- read_excel("E:/COX2.xlsx", sheet = "C2-2")
 COX2_2_result <- my_function(COX2_2, "ACCTACGAGTACACCGACTA")
 
-COX2_1 <- read_excel("E:/COX2.xlsx", sheet = "C2")
-COX2_result <- my_function(COX2_1, "ACCTACGAGTACACCGACTA")
+COX2_3_result <- my_function(COX2_3, "ACCTACGAGTACACCGACTA")
 
-COX2_B <- read_excel("E:/COX2.xlsx", sheet = "Cox2-B")
-COX2_B_result <- my_function(COX2_B, "ACCTACGAGTACACCGACTA")
-
-COX2_4_result <- my_function(C2, "ACCTACGAGTACACCGACTA")
+COX2_4_result <- my_function(COX2_4, "ACCTACGAGTACACCGACTA")
 
 
-COX3_1 <- read_excel("E:/COX3.xlsx", sheet = "C3")
-COX3_result <- my_function(COX3_1, "CAGCCCATGACCCCTAACAG")
+COX3_1_result <- my_function(COX3_1, "CAGCCCATGACCCCTAACAG")
 
-COX3_2 <- read_excel("E:/COX3.xlsx", sheet = "C3-2")
 COX3_2_result <- my_function(COX3_2, "CAGCCCATGACCCCTAACAG")
 
-COX3_H <- read_excel("E:/COX3.xlsx", sheet = "hCOX3")
-COX3_H_result <- my_function(COX3_H, "CAGCCCATGACCCCTAACAG")
+COX3_3_result <- my_function(COX3_3, "CAGCCCATGACCCCTAACAG")
 
-COX3_B3 <- read_excel("E:/COX3.xlsx", sheet = "BC3-3")
-COX3_B3_result <- my_function(COX3_B3, "CAGCCCATGACCCCTAACAG")
+COX3_4_result <- my_function(COX3_4, "CAGCCCATGACCCCTAACAG")
 
-COX3_4_result <- my_function(C3, "CAGCCCATGACCCCTAACAG")
+COX3_5_result <- my_function(COX3_5, "CAGCCCATGACCCCTAACAG")
 
 # EXPORT ------------------------------------------------------------------
 my_list <- Filter(function(x) is(x, "data.frame"), mget(ls()))
@@ -169,40 +136,40 @@ lapply(1:length(my_list_use),
 
 
 
-# row bind for each type  -------------------------------------------------
+# Combine by gene type  -------------------------------------------------
 
 
 
-ATP8 <- rbind(ATP8_A8_result, ATP8_ATP8B1_result, ATP8_BA81_result, ATP8_4_result)
+ATP8 <- rbind(ATP8_1_result, ATP8_2_result, ATP8_3_result, ATP8_4_result)
 ATP8$group <- rep(c("1", "2", "3", "4"), each = 6)
 names(ATP8)[2:21] <- paste(names(ATP8)[2:21], 1:20, sep = "_")
 
-COX2 <- rbind(COX2_2_result, COX2_B_result, COX2_result, COX2_4_result)
+COX2 <- rbind(COX2_1_result, COX2_2_result, COX2_3_result, COX2_4_result)
 COX2$group <- rep(c("1", "2", "3", "4"), each = 6)
 names(COX2)[2:21] <- paste(names(COX2)[2:21], 1:20, sep = "_")
 
-ND3 <- rbind(ND3_B1_result, ND3_B_result, ND3_result, ND3_4_result)
+ND3 <- rbind(ND3_1_result, ND3_2_result, ND3_3_result, ND3_4_result)
 ND3$group <- rep(c("1", "2", "3", "4"), each = 6)
 names(ND3)[2:21] <- paste(names(ND3)[2:21], 1:20, sep = "_")
 
 
-ND5 <- rbind(ND5_2_result, ND5_B1_result, ND5_result, ND5_4_result)
+ND5 <- rbind(ND5_1_result, ND5_2_result, ND5_3_result, ND5_4_result)
 ND5$group <- rep(c("1", "2", "3", "4"), each = 6)
 names(ND5)[2:21] <- paste(names(ND5)[2:21], 1:20, sep = "_")
 
-COX3 <- rbind(COX3_2_result, COX3_B3_result, COX3_H_result, COX3_result, COX3_4_result)
+COX3 <- rbind(COX3_1_result, COX3_2_result, COX3_3_result, COX3_4_result, COX3_5_result)
 COX3$group <- rep(c("1", "2", "3", "4", "5"), each = 6)
 names(COX3)[2:21] <- paste(names(COX3)[2:21], 1:20, sep = "_")
 
-ND1 <- rbind(ND1_1_result, ND1_2_result, ND1_B_result, ND1_B1_result, ND1_4_result)
+ND1 <- rbind(ND1_1_result, ND1_2_result, ND1_3_result, ND1_4_result, ND1_5_result)
 ND1$group <- rep(c("1", "2", "3", "4", "5"), each = 6)
 names(ND1)[2:21] <- paste(names(ND1)[2:21], 1:20, sep = "_")
 
-ND2 <- rbind(ND2_1_result, ND2_2_result, ND2_B_result, ND2_B1_result, ND2_4_result)
+ND2 <- rbind(ND2_1_result, ND2_2_result, ND2_3_result, ND2_4_result, ND2_5_result)
 ND2$group <- rep(c("1", "2", "3", "4", "5"), each = 6)
 names(ND2)[2:21] <- paste(names(ND2)[2:21], 1:20, sep = "_")
 
-ND4 <- rbind(ND4_2N4BD5_result, ND4_2N4BD6_result, ND4_B1_result, ND4_B_result, ND4_IDK_result, ND4_4_result)
+ND4 <- rbind(ND4_1_result, ND4_2_result, ND4_3_result, ND4_4_result, ND4_5_result, ND4_6_result)
 ND4$group <- rep(c("1", "2", "3", "4", "5", "6"), each = 6)
 names(ND4)[2:21] <- paste(names(ND4)[2:21], 1:20, sep = "_")
 
