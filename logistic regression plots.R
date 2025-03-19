@@ -9,9 +9,7 @@ my_function_eff <- function(x, y, number){ # x is the name of original file
   cut_string <- toupper(cut_string)
   temp <- as.data.frame(do.call("rbind", strsplit(cut_string, "")))
   temp$Reads <- x$Reads
-  temp <- temp %>% 
-    filter(Reads >= 100)
-  location_c <- which(temp[1, ] == "C") 
+    location_c <- which(temp[1, ] == "C") 
   location_c <- subset(location_c, location_c > 1 & location_c < 12)
   location_x <- location_c + number 
   result_c <- temp %>% 
@@ -153,9 +151,7 @@ my_function_purity <- function(x, y, number){ # x is the name of original file
   cut_string <- toupper(cut_string)
   temp <- as.data.frame(do.call("rbind", strsplit(cut_string, "")))
   temp$Reads <- x$Reads
-  temp <- temp %>% 
-    filter(Reads >= 100)
-  location_c <- which(temp[1, ] == "C") 
+    location_c <- which(temp[1, ] == "C") 
   location_c <- subset(location_c, location_c > 1 & location_c < 12)
   location_x <- location_c + number 
   result_c <- temp %>% 
