@@ -11,9 +11,7 @@ my_function <- function(x, y){ # x = file name, y = wild sequence
   cut_string <- toupper(cut_string)
   temp <- as.data.frame(do.call("rbind", strsplit(cut_string, "")))
   temp$Reads <- x$Reads
-  temp <- temp %>% 
-    filter(Reads >= 100)
-  Sum <- sum(temp$Reads)
+    Sum <- sum(temp$Reads)
   
   result <- data.frame(type = c("A", "C", "G", "T", "-", "N"))
   
