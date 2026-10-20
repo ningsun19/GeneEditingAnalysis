@@ -1,14 +1,7 @@
 
-# Automatically extract sample names
-samples <- unique(
-  sub("^[ATCG]_Count_", "", 
-      grep("^[ATCG]_Count_", names(df), value = TRUE))
-)
-
-samples
-
 control_samples <- c("C3", "C4", "C5")
 trt_samples     <- c("S1", "S2", "S3")
+samples  <- c(control_samples, trt_samples)
 
 for (s in samples) {
   
