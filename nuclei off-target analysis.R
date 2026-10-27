@@ -11,9 +11,6 @@ for (i in 1:nrow(DNA)){
   result[i] <- temp$p.value
 }
 
-which(result < 0.05)
-which(result < 0.05/49)
-
 pvalues <- p.adjust(result, "BH")  # FDR correction
 names(pvalues) <- paste0(DNA$Region, "_", DNA$POSITION) 
 
