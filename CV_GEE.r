@@ -1,7 +1,5 @@
-# Example in R for aggregated data (y1, y0 format)
-library(stats)
 
-# data has columns: prior_base, after_base, position, y1, y0, cell_type
+library(stats)
 
 # Unique cell types
 cell_types <- unique(m_wide$cell)
